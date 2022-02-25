@@ -3,13 +3,13 @@ import { RepositoryItem } from "./RepositoryItem"
 const repository = {
   name: 'unform',
   description: 'Form In React',
-  link: 'https://github.com/RicardoRioss/tollsNode'
+  link: 'https://github.com/RicardoRioss/login-React'
 }
 
 
 export function RepositoryList() {
   return (
-    <section repository-list>
+    <section className="repository-list" >
       <h1>Lista de repositórios</h1>
       <ul>
         <RepositoryItem  repository = {repository}/>
